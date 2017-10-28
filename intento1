@@ -1,0 +1,46 @@
+stock : {'banana':5, 'apple':3, 'pear':2, 'cereal':8, 'milk':5, 'eggs':15}
+price : {'banana':1.25, 'apple':0.95, 'pear':1.5, 'cereal':7.3, 'milk':5, 'eggs':2}
+
+def compute_bill(lista)
+        stockbanana = stock['banana']
+    stockapple = stock['apple']
+    stockpear = stock['pear']
+    stockcereal = stock['cereal']
+    stockmilk = stock['milk']
+    stockeggs = stock['eggs']
+    total = 0
+    for x in lista:
+        if x = lista([0]):
+            if x>int(stock['banana']) :
+                total = total + x * float(price['banana'])
+                int(stock['banana']) = int(stock['banana'])-x
+            else:
+                total = total
+        elif x = lista([1]) 
+            if x> int(stock['apple']) :
+                total = total + x * float(price['apple'])
+                int(stock['apple'])=int(stock['apple'])-x
+            else: total = total 
+        elif x = lista([2])
+            if x>int(stock['pear']):
+                total = total + x * float(price['pear')] 
+                int(stock['pear']) = int(stock['pear'])-x
+            else: total = total
+        elif x = lista([3])
+            if x>int(stock['cereal']):
+                total = total + x * float(price['cereal'])   
+                int(stock['cereal']) = int(stock['cereal'])-x 
+            else: total = total   
+        elif x = lista([4])
+            if x>int(stock['milk']):
+                summilk = summilk + x * float(price['milk'])   
+                int(stock['milk']) = int(stock['milk'])-x 
+            else: total = total 
+        elif x = lista([5])
+            if x>int(stock['eggs']):
+            total = total + x * float(price['eggs'])   
+            int(stock['eggs']) = int(stock['eggs'])-x  
+            else: total = total 
+        else: print ('el monto de la factura es $'+ total)
+            
+lista = [2,2,2,2,2,2]
